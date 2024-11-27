@@ -12,13 +12,13 @@
 #define PROMPT "enseash % "
 
 void welcome() {
-    char input[128]; // Buffer to store user input
+    char input[128];
 
     // Write the welcome message
     write(STDOUT_FILENO, WELCOME_MSG, strlen(WELCOME_MSG));
 
     while (1) {
-        // Display the prompt
+
         write(STDOUT_FILENO, PROMPT, strlen(PROMPT));
 
         // Read the user command
@@ -28,11 +28,10 @@ void welcome() {
             // Add a null terminator to the input string
             input[user_read - 1] = '\0';
 
-            // Check if the user typed "exit"
+
             if (strcmp(input, "exit") == 0) {
                 break; // Exit the loop
             }
         }
     }
-    return 0;
 }
