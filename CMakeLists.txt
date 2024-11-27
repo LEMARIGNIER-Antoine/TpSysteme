@@ -8,4 +8,6 @@ add_executable(tpSysteme1 main.c
         Welcome.h
         Q2.c
         Q2.h
+        Q3.c
+        Q3.h
 )
