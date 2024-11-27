@@ -34,5 +34,5 @@ void welcome() {
             }
         }
     }
-
+    return 0;
 }
