@@ -3,12 +3,12 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h> // for the exit
 #include <unistd.h>
 #include <string.h>
 #include "Q3.h"
 
 #define PROMPT "enseash % "
-
 
 void Q3() {
     char input[128];
@@ -23,9 +23,8 @@ void Q3() {
             // Add a null terminator to the input string
             input[user_read - 1] = '\0';
 
-
             if (strcmp(input, "exit") == 0) {
-                break; // Exit the loop
+                exit(0); // Terminate the program immediately
             }
         }
     }

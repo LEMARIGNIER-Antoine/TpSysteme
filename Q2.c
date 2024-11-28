@@ -11,10 +11,10 @@ void Q2() {
     char input[128];
 
     while (1) {
-        // Display the prompt
+
         write(STDOUT_FILENO, PROMPT, strlen(PROMPT));
 
-        // Read the user command
+
         ssize_t user_read = read(STDIN_FILENO, input, sizeof(input) - 1);
         if (user_read > 0) {
             // Add a null terminator to the input string

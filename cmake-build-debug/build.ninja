@@ -73,6 +73,12 @@ build CMakeFiles/tpSysteme1.dir/Q3.c.o: C_COMPILER__tpSysteme1_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/tpSysteme1.dir
   OBJECT_FILE_DIR = CMakeFiles/tpSysteme1.dir
 
+build CMakeFiles/tpSysteme1.dir/Q4.c.o: C_COMPILER__tpSysteme1_unscanned_Debug /home/grimont/CLionProjects/tpSysteme1/Q4.c || cmake_object_order_depends_target_tpSysteme1
+  DEP_FILE = CMakeFiles/tpSysteme1.dir/Q4.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/tpSysteme1.dir
+  OBJECT_FILE_DIR = CMakeFiles/tpSysteme1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target tpSysteme1
@@ -81,7 +87,7 @@ build CMakeFiles/tpSysteme1.dir/Q3.c.o: C_COMPILER__tpSysteme1_unscanned_Debug /
 #############################################
 # Link the executable tpSysteme1
 
-build tpSysteme1: C_EXECUTABLE_LINKER__tpSysteme1_Debug CMakeFiles/tpSysteme1.dir/main.c.o CMakeFiles/tpSysteme1.dir/Welcome.c.o CMakeFiles/tpSysteme1.dir/Q2.c.o CMakeFiles/tpSysteme1.dir/Q3.c.o
+build tpSysteme1: C_EXECUTABLE_LINKER__tpSysteme1_Debug CMakeFiles/tpSysteme1.dir/main.c.o CMakeFiles/tpSysteme1.dir/Welcome.c.o CMakeFiles/tpSysteme1.dir/Q2.c.o CMakeFiles/tpSysteme1.dir/Q3.c.o CMakeFiles/tpSysteme1.dir/Q4.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/tpSysteme1.dir
   POST_BUILD = :
