@@ -13,8 +13,8 @@ C'est une alternative efficace aux fonctions printf et scanf.
 Q2)
 Utilisation de fork pour dupliquer un processus. Le parent continue d'exécuter le shell, tandis que le processus enfant exécute fortune.
 Attention :
-    -Toujours vérifier que le processus enfant se termine correctement.
-    -Ne pas oublier de fermer les processus enfants pour éviter les duplications non contrôlées.
+     Toujours vérifier que le processus enfant se termine correctement.
+     Ne pas oublier de fermer les processus enfants pour éviter les duplications non contrôlées.
 
 Q3)
 Au départ, l'utilisation de break semblait judicieuse, mais elle est insuffisante en cas de plusieurs boucles imbriquées.
