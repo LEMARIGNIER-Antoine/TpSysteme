@@ -6,12 +6,12 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#include "Welcome.h" // Include the corresponding header file
+#include "Q1.h" // Include the corresponding header file
 
 #define WELCOME_MSG "Bienvenue dans le Shell ENSEA.\nPour quitter, tapez 'exit'.\n"
 #define PROMPT "enseash % "
 
-void welcome() {
+void Q1() {
     char input[128];
 
     // Write the welcome message

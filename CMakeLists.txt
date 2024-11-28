@@ -4,8 +4,8 @@ project(tpSysteme1 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(tpSysteme1 main.c
-        Welcome.c
-        Welcome.h
+        Q1.c
+        Q1.h
         Q2.c
         Q2.h
         Q3.c

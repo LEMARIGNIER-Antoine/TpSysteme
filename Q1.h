@@ -5,6 +5,6 @@
 #define WELCOME_H
 
 
-void welcome();
+void Q1();
 
 #endif
