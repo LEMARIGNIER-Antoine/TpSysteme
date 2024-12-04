@@ -29,3 +29,7 @@ gedit
 [sign:9]
 enseash % 
 On voit bien [exit:1] lors de l'exit et pour kill dans le terminal, il faut taper ps -e puis voir le PID de gedit puis faire kill -9 PID et on voit dans la console [sign:9] apparaître.
+
+Q5) Très ressemblante à Q4, on rajoute un start timer, on fait un wait(&status) puis on arrête le timer. On teste de nouveau avec un gedit puis on le kill et on observe le temps : gedit
+[sign:9|18200ms]
+enseash % 
