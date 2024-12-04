@@ -33,3 +33,7 @@ On voit bien [exit:1] lors de l'exit et pour kill dans le terminal, il faut tape
 Q5) Très ressemblante à Q4, on rajoute un start timer, on fait un wait(&status) puis on arrête le timer. On teste de nouveau avec un gedit puis on le kill et on observe le temps : gedit
 [sign:9|18200ms]
 enseash % 
+
+Q6) On essaye de mettre plusieurs arguments dans la commande donc il faut trouver un moyen de séparer les arguments, heureseument, token exite, on d'élimite chaque argument par des " ", puis on les stock et on les réappellera grâce à execvp : enseash % hostname -i
+127.0.1.1
+enseash % 
