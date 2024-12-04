@@ -37,3 +37,6 @@ enseash %
 Q6) On essaye de mettre plusieurs arguments dans la commande donc il faut trouver un moyen de séparer les arguments, heureseument, token exite, on d'élimite chaque argument par des " ", puis on les stock et on les réappellera grâce à execvp : enseash % hostname -i
 127.0.1.1
 enseash % 
+
+Q7) on va concaténer 6 et 5 mais j'ai eu des soucis de fonctions ( surtout timer) qui se retrouvaient dans les 2. Solution include Q5.h dans Q7.c et Q7.h.
+Après on regardeles  redirections. Clairement, un .h globale aurait été plus facile à utiliser pour définir qu'une seule fois les fonctions et autres.
