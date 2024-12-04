@@ -3,12 +3,14 @@
 #include "Q3.h"
 #include "Q4.h"
 #include "Q5.h"
+#include "Q6.h"
 
 int main() {
     //Q1(); // appel la fonction qui exécute la question 1
     //Q2();//question 2
     //Q3();// question 3
     //Q4();//question 4
-    Q5();
+    //Q5();
+    Q6();
     return 0;
 }
