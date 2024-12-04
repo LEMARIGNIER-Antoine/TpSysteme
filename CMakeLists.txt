@@ -16,4 +16,6 @@ add_executable(tpSysteme1 main.c
         Q5.h
         Q6.c
         Q6.h
+        Q7.c
+        Q7.h
 )
