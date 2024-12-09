@@ -20,7 +20,7 @@ Q3)
 Au départ, l'utilisation de break semblait judicieuse, mais elle est insuffisante en cas de plusieurs boucles imbriquées.
 La fonction exit(status) (disponible via la bibliothèque stdlib.h) est une solution plus adaptée, car elle permet d'interrompre complètement l'exécution du programme.
 
-Q4) Affichage du code de retour dans le prompt : Utilisation du WIFEXITED(status) et WIFSIGNALED(status) pour afficher le statut exit ou le signal
+Q4) Affichage du code de retour dans le prompt : Utilisation du WIFEXITED(status) et WIFSIGNALED(status) pour afficher le statut exit ou le signal.
 Pour vérigier si tout fonctionne bien, dans la console : 
 enseash % geany
 [exit:1]
