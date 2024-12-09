@@ -34,7 +34,7 @@ Q5) Très ressemblante à Q4, on rajoute un start timer, on fait un wait(&status
 [sign:9|18200ms]
 enseash % 
 
-Q6) On essaye de mettre plusieurs arguments dans la commande donc il faut trouver un moyen de séparer les arguments, heureseument, token exite, on d'élimite chaque argument par des " ", puis on les stock et on les réappellera grâce à execvp : enseash % hostname -i
+Q6) On essaye de mettre plusieurs arguments dans la commande donc il faut trouver un moyen de séparer les arguments, heureseument, token exite, on délimite chaque argument par des " ", puis on les stock et on les réappellera grâce à execvp : enseash % hostname -i
 127.0.1.1
 enseash % 
 
